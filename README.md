@@ -1,5 +1,7 @@
 # Wateray Release
 
+官网：[https://wateray.net/](https://wateray.net/)
+
 Wateray 是一个基于 `sing-box` 构建的跨平台桌面代理客户端，目标是在现代桌面环境中提供更顺滑、更稳定、更易用的代理管理体验。
 
 当前版本已完成 **Windows 桌面端**，`Linux` 与 `macOS` 正在规划与推进中。

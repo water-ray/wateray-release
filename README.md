@@ -2,67 +2,48 @@
 
 官网：[https://wateray.net/](https://wateray.net/)
 
-Wateray 是一个基于 `sing-box` 构建的跨平台桌面代理客户端，目标是在现代桌面环境中提供更顺滑、更稳定、更易用的代理管理体验。
+Wateray 的公开发布仓库，用于分发客户端安装包、版本说明与升级索引文件。
+此 README 由发布流程自动更新。
 
-当前版本已支持 **Windows** 与 **Linux** 桌面端，`macOS` 与其他平台仍在开发与规划中。
+## 当前稳定版本
 
-## 版本规划
+- 版本：`1.5.1`
+- 发布渠道：稳定版
+- 当前平台：Windows, Linux, Android
+- Release 页面：[Wateray v1.5.1](https://github.com/water-ray/wateray-release/releases/tag/v1.5.1)
+- 全部版本：[查看 Releases](https://github.com/water-ray/wateray-release/releases)
 
-- [x] Windows 桌面客户端
-- [x] Linux 桌面客户端
-- [ ] macOS 桌面客户端
-- [ ] Android 移动客户端
-- [ ] iOS 移动客户端
+## 更新摘要
+- 新功能：本次版本未记录独立新功能。
+- 修复：本次版本未记录独立缺陷修复。
+- 优化：安卓版完善；Windows桌面版新增监控请求功能；安卓移动版+桌面版正常可用版本
+- 兼容性说明：当前公开发布包包含：Windows, Linux, Android。请按对应平台下载使用。
 
-## 项目定位
+## 下载文件
 
-- 面向日常桌面代理使用场景的图形化客户端
-- 以前端控制台 + 独立运行时内核的方式组织架构
-- 兼顾易用性、性能、稳定性与后续跨平台扩展能力
+### Windows
 
-## 技术基础
+- [Wateray-windows-v1.5.1.zip](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/Wateray-windows-v1.5.1.zip)：Windows 客户端整包（16.60 MB，推荐下载）
 
-- 代理运行时基于 `sing-box`
-- 桌面端界面基于 `Tauri + React + TypeScript`
-- 核心控制层基于 `Go`
-- 当前已提供 Windows 与 Linux 桌面端支持
+### Linux
 
-## 主要功能
+- [Wateray-linux-v1.5.1.zip](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/Wateray-linux-v1.5.1.zip)：Linux 客户端整包（18.06 MB，推荐下载）
+- [wateray_1.5.1_amd64.deb](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/wateray_1.5.1_amd64.deb)：Linux Debian/Ubuntu 安装包（14.95 MB）
+- [Wateray-linux-v1.5.1-x86_64.AppImage](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/Wateray-linux-v1.5.1-x86_64.AppImage)：Linux AppImage 便携包（17.59 MB）
 
-- 可视化代理配置管理
-- 节点、分组、订阅统一管理
-- 代理启停、运行状态与任务状态可视化
-- 支持运行时热更新，尽量减少重载带来的中断
-- 支持智能优选与分组切换等桌面代理常用能力
-- 提供机场页面嵌入能力，用于云端配置备份与项目广告收益支持
+### Android
 
-## 产品优势
+- [Wateray-Android-v1.5.1-arm64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/Wateray-Android-v1.5.1-arm64-release.apk)：Android arm64 release APK（72.23 MB，推荐下载）
+- [Wateray-Android-v1.5.1-x86_64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/Wateray-Android-v1.5.1-x86_64-release.apk)：Android x86_64 release APK（75.91 MB）
 
-- 基于成熟代理内核，兼顾性能与协议扩展能力
-- 桌面端交互清晰，适合长期日常使用
-- 前端界面与运行时内核解耦，稳定性更好
-- 配置、分组、订阅、节点的管理链路更完整
-- 保留后续 macOS 与其他平台扩展所需的结构基础
+## 附加文件
 
-## 架构特点
-
-- 桌面 UI 与代理运行时分离，界面关闭后可独立考虑运行时生命周期
-- 运行态数据由内核统一维护，减少前端本地状态漂移
-- 机场页面支持嵌入式交互，用于用户云端备份当前配置
-
-## 当前发布说明
-
-这个公开仓库主要用于：
-
-- 发布 Wateray 客户端安装包或压缩包
-- 承载版本说明与校验文件
-- 提供公开下载入口
-
-当前公开发布已覆盖 **Windows** 与 **Linux** 客户端。
+- [SHA256SUMS.txt](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/SHA256SUMS.txt)：发布文件校验值。
+- [latest.json](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/latest.json)：机器可读版本摘要。
+- [latest-github.json](https://github.com/water-ray/wateray-release/releases/download/v1.5.1/latest-github.json)：带 GitHub 下载地址的版本摘要。
+- [本次版本说明](https://github.com/water-ray/wateray-release/releases/tag/v1.5.1)：查看完整 Release Notes。
 
 ## 说明
 
-- 公开仓库主要面向发布产物分发
-- 源码仓库与服务端体系不在此仓库公开
-
-后续版本会持续补充发布包、更新说明与下载入口。
+- 该仓库默认只保留公开发布所需文件，不包含源码开发文档。
+- 当前公开发布平台以本 README 与对应 Release 附件为准。

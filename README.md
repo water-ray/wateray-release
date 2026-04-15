@@ -36,6 +36,34 @@ Wateray 的公开发布仓库，用于分发已纳入公开发布流程的平台
 - [Wateray-Android-v1.7.1-arm64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.7.1/Wateray-Android-v1.7.1-arm64-release.apk)：Android arm64 APK 安装包（72.50 MB，推荐下载）
 - [Wateray-Android-v1.7.1-x86_64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.7.1/Wateray-Android-v1.7.1-x86_64-release.apk)：Android x86_64 APK 安装包（76.42 MB）
 
+## 客户端界面截图
+
+以下截图存放在仓库 images/screenshots/ 目录，便于在 Release 页面之外快速了解客户端主要界面。
+
+### Android 客户端
+
+- 安卓客户端：代理运行与订阅节点列表
+![代理运行中的安卓订阅页](images/screenshots/android-subscriptions.png)
+
+- 安卓客户端：规则分组与节点池管理
+![安卓规则与节点池页](images/screenshots/android-rules.png)
+
+### Windows / Linux 桌面端
+
+桌面端在 Windows 与 Linux 上保持相同的信息架构与主操作流，以下截图展示核心页面布局。
+
+- Windows / Linux 桌面端：代理主页与启动控制
+![桌面端代理主页](images/screenshots/desktop-proxy.png)
+
+- Windows / Linux 桌面端：订阅列表与节点评分
+![桌面端订阅页](images/screenshots/desktop-subscriptions.png)
+
+- Windows / Linux 桌面端：规则管理与节点池
+![桌面端规则页](images/screenshots/desktop-rules.png)
+
+- Windows / Linux 桌面端：请求监控与规则建议
+![桌面端监控页](images/screenshots/desktop-monitor.png)
+
 ## 附加文件
 
 - [SHA256SUMS.txt](https://github.com/water-ray/wateray-release/releases/download/v1.7.1/SHA256SUMS.txt)：发布文件校验值。

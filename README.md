@@ -7,34 +7,39 @@ Wateray 的公开发布仓库，用于分发已纳入公开发布流程的平台
 
 ## 当前稳定版本
 
-- 版本：`1.7.3`
+- 版本：`1.7.7`
 - 发布渠道：稳定版
 - 当前公开发布平台：Windows（ZIP 整包）, Linux（ZIP / DEB / AppImage）, Android（APK）
-- Release 页面：[Wateray v1.7.3](https://github.com/water-ray/wateray-release/releases/tag/v1.7.3)
+- 本次未发布：macOS（DMG 安装镜像）（本次无更新，无发布版本）
+- Release 页面：[Wateray v1.7.7](https://github.com/water-ray/wateray-release/releases/tag/v1.7.7)
 - 全部版本：[查看 Releases](https://github.com/water-ray/wateray-release/releases)
 
 ## 更新摘要
-- 新功能：本次版本未记录独立新功能。
+- 新功能：新增下载测速,优化各种交互
 - 修复：修复微信图片发送；修复安卓构建问题；修复拖拽问题
-- 优化：优化草稿保存，下载断链问题；优化评分；优化TLS连接,增加缓存机制,修复历史遗留自动urltest问题
+- 优化：优化速度统计,修复国旗图标问题；优化通信/ui操作；优化草稿保存，下载断链问题
 - 兼容性说明：当前公开发布包包含：Windows（ZIP 整包）, Linux（ZIP / DEB / AppImage）, Android（APK）。请按对应平台下载使用。
 
 ## 下载文件
 
 ### Windows（ZIP 整包）
 
-- [Wateray-windows-v1.7.3.zip](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/Wateray-windows-v1.7.3.zip)：Windows ZIP 便携整包（16.97 MB，推荐下载）
+- [Wateray-windows-v1.7.7.zip](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/Wateray-windows-v1.7.7.zip)：Windows ZIP 便携整包（17.04 MB，推荐下载）
 
 ### Linux（ZIP / DEB / AppImage）
 
-- [Wateray-linux-v1.7.3.zip](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/Wateray-linux-v1.7.3.zip)：Linux ZIP 便携整包（19.07 MB，推荐下载）
-- [wateray_1.7.3_amd64.deb](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/wateray_1.7.3_amd64.deb)：Linux Debian/Ubuntu 安装包（15.69 MB）
-- [Wateray-linux-v1.7.3-x86_64.AppImage](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/Wateray-linux-v1.7.3-x86_64.AppImage)：Linux AppImage 便携包（18.51 MB）
+- [Wateray-linux-v1.7.7.zip](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/Wateray-linux-v1.7.7.zip)：Linux ZIP 便携整包（19.16 MB，推荐下载）
+- [wateray_1.7.7_amd64.deb](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/wateray_1.7.7_amd64.deb)：Linux Debian/Ubuntu 安装包（15.75 MB）
+- [Wateray-linux-v1.7.7-x86_64.AppImage](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/Wateray-linux-v1.7.7-x86_64.AppImage)：Linux AppImage 便携包（18.58 MB）
 
 ### Android（APK）
 
-- [Wateray-Android-v1.7.3-arm64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/Wateray-Android-v1.7.3-arm64-release.apk)：Android arm64 APK 安装包（72.50 MB，推荐下载）
-- [Wateray-Android-v1.7.3-x86_64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/Wateray-Android-v1.7.3-x86_64-release.apk)：Android x86_64 APK 安装包（76.42 MB）
+- [Wateray-Android-v1.7.7-arm64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/Wateray-Android-v1.7.7-arm64-release.apk)：Android arm64 APK 安装包（73.68 MB，推荐下载）
+- [Wateray-Android-v1.7.7-x86_64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/Wateray-Android-v1.7.7-x86_64-release.apk)：Android x86_64 APK 安装包（77.56 MB）
+
+### macOS（DMG 安装镜像）
+
+- 本次无更新，无发布版本。
 
 ## 客户端界面截图
 
@@ -66,10 +71,10 @@ Wateray 的公开发布仓库，用于分发已纳入公开发布流程的平台
 
 ## 附加文件
 
-- [SHA256SUMS.txt](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/SHA256SUMS.txt)：发布文件校验值。
-- [latest.json](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/latest.json)：机器可读版本摘要。
-- [latest-github.json](https://github.com/water-ray/wateray-release/releases/download/v1.7.3/latest-github.json)：带 GitHub 下载地址的版本摘要。
-- [本次版本说明](https://github.com/water-ray/wateray-release/releases/tag/v1.7.3)：查看完整 Release Notes。
+- [SHA256SUMS.txt](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/SHA256SUMS.txt)：发布文件校验值。
+- [latest.json](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/latest.json)：机器可读版本摘要。
+- [latest-github.json](https://github.com/water-ray/wateray-release/releases/download/v1.7.7/latest-github.json)：带 GitHub 下载地址的版本摘要。
+- [本次版本说明](https://github.com/water-ray/wateray-release/releases/tag/v1.7.7)：查看完整 Release Notes。
 
 ## 说明
 

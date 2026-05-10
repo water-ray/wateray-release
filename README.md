@@ -7,35 +7,32 @@ Wateray 的公开发布仓库，用于分发已纳入公开发布流程的平台
 
 ## 当前稳定版本
 
-- 版本：`1.7.9`
+- 版本：`2.1.0`
 - 发布渠道：稳定版
-- 当前公开发布平台：Windows（ZIP 整包）, Linux（ZIP / DEB / AppImage）, Android（APK）
-- 本次未发布：macOS（DMG 安装镜像）（本次无更新，无发布版本）
-- Release 页面：[Wateray v1.7.9](https://github.com/water-ray/wateray-release/releases/tag/v1.7.9)
+- 当前公开发布平台：Windows（ZIP 整包）
+- 本次未发布：macOS（DMG 安装镜像）, Linux（ZIP / DEB / AppImage）, Android（APK）（本次无更新，无发布版本）
+
 - 全部版本：[查看 Releases](https://github.com/water-ray/wateray-release/releases)
 
 ## 更新摘要
-- 新功能：新增外部链接日志；新增下载测速,优化各种交互
-- 修复：修复微信图片发送；修复安卓构建问题；修复拖拽问题
-- 优化：优化速度统计,修复国旗图标问题；优化通信/ui操作；优化草稿保存，下载断链问题
-- 兼容性说明：当前公开发布包包含：Windows（ZIP 整包）, Linux（ZIP / DEB / AppImage）, Android（APK）。请按对应平台下载使用。
+- 完全解决因句柄泄露造成的内核崩溃问题。
+- 节点表格右键“全选”改为按类型分类选择。
+- DNS自定义hosts支持泛域名方式 "127.0.0.1 qq.com *.qq.com"
+- 增加 TUN 路由排除 - 使固定IP明确不由TUN入站，直接直连，重启刷新代理直连游戏不掉线。
 
 ## 下载文件
 
 ### Windows（ZIP 整包）
 
-- [Wateray-windows-v1.7.9.zip](https://github.com/water-ray/wateray-release/releases/download/v1.7.9/Wateray-windows-v1.7.9.zip)：Windows ZIP 便携整包（17.07 MB，推荐下载）
+- [查看 Releases](https://github.com/water-ray/wateray-release/releases)
 
 ### Linux（ZIP / DEB / AppImage）
 
-- [Wateray-linux-v1.7.9.zip](https://github.com/water-ray/wateray-release/releases/download/v1.7.9/Wateray-linux-v1.7.9.zip)：Linux ZIP 便携整包（19.23 MB，推荐下载）
-- [wateray_1.7.9_amd64.deb](https://github.com/water-ray/wateray-release/releases/download/v1.7.9/wateray_1.7.9_amd64.deb)：Linux Debian/Ubuntu 安装包（15.81 MB）
-- [Wateray-linux-v1.7.9-x86_64.AppImage](https://github.com/water-ray/wateray-release/releases/download/v1.7.9/Wateray-linux-v1.7.9-x86_64.AppImage)：Linux AppImage 便携包（18.64 MB）
+- 本次无更新，无发布版本。
 
 ### Android（APK）
 
-- [Wateray-Android-v1.7.9-arm64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.7.9/Wateray-Android-v1.7.9-arm64-release.apk)：Android arm64 APK 安装包（73.68 MB，推荐下载）
-- [Wateray-Android-v1.7.9-x86_64-release.apk](https://github.com/water-ray/wateray-release/releases/download/v1.7.9/Wateray-Android-v1.7.9-x86_64-release.apk)：Android x86_64 APK 安装包（77.56 MB）
+- 本次无更新，无发布版本。
 
 ### macOS（DMG 安装镜像）
 

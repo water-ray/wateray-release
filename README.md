@@ -15,9 +15,10 @@ Wateray 的公开发布仓库，用于分发已纳入公开发布流程的平台
 - 全部版本：[查看 Releases](https://github.com/water-ray/wateray-release/releases)
 
 ## 更新摘要
-- 新功能：本次版本未记录独立新功能。
-- 修复：本次版本未记录独立缺陷修复。
-- 优化：本次版本以构建、发布或维护性调整为主。
+- 完全解决因句柄泄露造成的内核崩溃问题。
+- 节点表格右键“全选”改为按类型分类选择。
+- DNS自定义hosts支持泛域名方式 "127.0.0.1 qq.com *.qq.com"
+- 增加 TUN 路由排除 - 使固定IP明确不由TUN入站，直接直连，重启刷新代理直连游戏不掉线。
 - 兼容性说明：当前公开发布包包含：Windows（ZIP 整包）, Linux（ZIP / DEB / AppImage）, Android（APK）。请按对应平台下载使用。
 
 ## 下载文件

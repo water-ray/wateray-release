@@ -7,34 +7,34 @@ Wateray 的公开发布仓库，用于分发已纳入公开发布流程的平台
 
 ## 当前稳定版本
 
-- 版本：`2.1.3`
+- 版本：`2.2.0`
 - 发布渠道：稳定版
 - 当前公开发布平台：Windows（ZIP 整包）, Linux（ZIP / DEB / AppImage）, Android（APK）
 - 本次未发布：macOS（DMG 安装镜像）（本次无更新，无发布版本）
-- Release 页面：[Wateray v2.1.3](https://github.com/water-ray/wateray-release/releases/tag/v2.1.3)
+- Release 页面：[Wateray v2.2.0](https://github.com/water-ray/wateray-release/releases/tag/v2.2.0)
 - 全部版本：[查看 Releases](https://github.com/water-ray/wateray-release/releases)
 
 ## 更新摘要
 - 新功能：本次版本未记录独立新功能。
-- 修复：本次版本未记录独立缺陷修复。
-- 优化：优化；发布修复；安卓优化
+- 修复：修复Windows编译
+- 优化：增加从http头获得流量信息；增加tuic/snell代理协议，增加cert://订阅解析证书；开始2.2.0版本，增加snell,tuic协议
 - 兼容性说明：当前公开发布包包含：Windows（ZIP 整包）, Linux（ZIP / DEB / AppImage）, Android（APK）。请按对应平台下载使用。
 
 ## 下载文件
 
 ### Windows（ZIP 整包）
 
-- [Wateray-windows-v2.1.3.zip](https://github.com/water-ray/wateray-release/releases/download/v2.1.3/Wateray-windows-v2.1.3.zip)：Windows ZIP 便携整包（17.65 MB，推荐下载）
+- [Wateray-windows-v2.2.0.zip](https://github.com/water-ray/wateray-release/releases/download/v2.2.0/Wateray-windows-v2.2.0.zip)：Windows ZIP 便携整包（21.33 MB，推荐下载）
 
 ### Linux（ZIP / DEB / AppImage）
 
-- [Wateray-linux-v2.1.3.zip](https://github.com/water-ray/wateray-release/releases/download/v2.1.3/Wateray-linux-v2.1.3.zip)：Linux ZIP 便携整包（19.81 MB，推荐下载）
-- [wateray_2.1.3_amd64.deb](https://github.com/water-ray/wateray-release/releases/download/v2.1.3/wateray_2.1.3_amd64.deb)：Linux Debian/Ubuntu 安装包（16.19 MB）
-- [Wateray-linux-v2.1.3-x86_64.AppImage](https://github.com/water-ray/wateray-release/releases/download/v2.1.3/Wateray-linux-v2.1.3-x86_64.AppImage)：Linux AppImage 便携包（19.17 MB）
+- [Wateray-linux-v2.2.0.zip](https://github.com/water-ray/wateray-release/releases/download/v2.2.0/Wateray-linux-v2.2.0.zip)：Linux ZIP 便携整包（21.99 MB，推荐下载）
+- [wateray_2.2.0_amd64.deb](https://github.com/water-ray/wateray-release/releases/download/v2.2.0/wateray_2.2.0_amd64.deb)：Linux Debian/Ubuntu 安装包（17.89 MB）
+- [Wateray-linux-v2.2.0-x86_64.AppImage](https://github.com/water-ray/wateray-release/releases/download/v2.2.0/Wateray-linux-v2.2.0-x86_64.AppImage)：Linux AppImage 便携包（21.15 MB）
 
 ### Android（APK）
 
-- [Wateray-Android-v2.1.3-universal-release.apk](https://github.com/water-ray/wateray-release/releases/download/v2.1.3/Wateray-Android-v2.1.3-universal-release.apk)：Android 通用 APK 安装包（87.86 MB，推荐下载）
+- [Wateray-Android-v2.2.0-universal-release.apk](https://github.com/water-ray/wateray-release/releases/download/v2.2.0/Wateray-Android-v2.2.0-universal-release.apk)：Android 通用 APK 安装包（108.29 MB，推荐下载）
 
 ### macOS（DMG 安装镜像）
 
